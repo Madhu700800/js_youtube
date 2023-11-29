@@ -64,10 +64,50 @@
 
 
  //*******************number*to string********* */
- let someNumber = 33
-let stringToNum = String(someNumber);
-console.log(stringToNum);
-console.log(typeof(stringToNum));
+//  let someNumber = 33
+// let stringToNum = String(someNumber);
+// console.log(stringToNum);
+// console.log(typeof(stringToNum));
+
+//*******************operation*********************
+
+// let value = 3
+// let negativevlue = -value
+// console.log(negativevlue);
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+// let str1 = "hello";
+// let str2 = "madhu";
+// let str3 = str1+str2
+// console.log(str3);
+
+
+
+
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1" + 2 + 2);
+// console.log(3 + 2 + "2");
+// console.log((3 + 2) / (2*10));
+
+// console.log(true);
+// console.log(+true);
+// console.log(true);
+// console.log(+"");
+ 
+
+let gemCounter = 100
+// gemCounter++
+++gemCounter
+console.log(gemCounter);
 
 
 
