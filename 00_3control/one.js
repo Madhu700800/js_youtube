@@ -50,12 +50,18 @@
 // console.log("execute");
 
 // **************************************
-let score = 200;
-if(score > 100){
-    const power = "fly"
-    console.log(`user power: ${power}`);
-}
-console.log(`user power: ${power}`);
-
+// let score = 200;
+// if(score > 100){
+//     const power = "fly"
+//     console.log(`user power: ${power}`);
+// }
+// console.log(`user power: ${power}`);
+// **************************************
+// var score = 200;
+// if(score > 100){
+//     var power = "fly"
+//     console.log(`user power: ${power}`);
+// }
+// console.log(`user power: ${power}`);
 
 
