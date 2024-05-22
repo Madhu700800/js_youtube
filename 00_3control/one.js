@@ -78,18 +78,18 @@
 // }
 
 // **************************************
-const useremailid = true;
-const debitcard = true;
-let loggedin = false;
-let loggedinformEmail = true
+// const useremailid = true;
+// const debitcard = true;
+// let loggedin = false;
+// let loggedinformEmail = true
 
 // if(useremailid && debitcard && 2 == 3){
 // console.log("Allowed to bye class");
 // }
 
-if(loggedin || loggedinformEmail ){
-    console.log("user logged in");
+// if(loggedin || loggedinformEmail ){
+//     console.log("user logged in");
     
-}
+// }
 
 
