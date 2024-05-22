@@ -63,5 +63,33 @@
 //     console.log(`user power: ${power}`);
 // }
 // console.log(`user power: ${power}`);
+// **************************************
+// const blance = 1000
+
+// if(blance < 500){
+//     console.log("lesss than 500");
+// }else if(blance < 750){
+//     console.log("lesss than 750");
+// }else if(blance < 900){
+//     console.log("lesss than 900");
+// }
+// else{
+//     console.log("gtrater than 1200");
+// }
+
+// **************************************
+const useremailid = true;
+const debitcard = true;
+let loggedin = false;
+let loggedinformEmail = true
+
+// if(useremailid && debitcard && 2 == 3){
+// console.log("Allowed to bye class");
+// }
+
+if(loggedin || loggedinformEmail ){
+    console.log("user logged in");
+    
+}
 
 
