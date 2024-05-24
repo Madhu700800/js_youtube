@@ -34,10 +34,10 @@ for (const [key , value] of map1) {
     //console.log(key ,':-',value);
 }
 //  *************************************
- const myObject = {
-    'game1' : "NFS",
-    'game2' : "Spiderman"
- } 
+//  const myObject = {
+//     'game1' : "NFS",
+//     'game2' : "Spiderman"
+//  } 
 //for (const [gmame , value] of myObject) {
   //  console.log(gmame);
   //console.log(gmame ,':-',value);
