@@ -11,7 +11,7 @@
 // console.log(itCourse);
 // *******************************************
 // Filter -----------------------
-const myNum = [1,2,3,4,5,6,7,8,9,10]
+// const myNum = [1,2,3,4,5,6,7,8,9,10]
 // const newNums = myNum.filter( (num) => num > 4)
 // console.log(newNums);
 
@@ -49,5 +49,12 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
-   console.log(books);
-   //books.filter( (chose) =>  books.genre === "history")
+   //console.log(books);
+ // let mybookcode = books.filter( (chose) =>  chose.genre === "History")
+//   console.log(mybookcode);
+ 
+let mybkd = books.filter( (bk) => {
+    return bk.edition < 2014
+        
+})
+console.log(mybkd);
