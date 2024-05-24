@@ -49,3 +49,5 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
+   console.log(books);
+   //books.filter( (chose) =>  books.genre === "history")
