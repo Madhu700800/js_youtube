@@ -40,5 +40,5 @@ for (const [key , value] of map1) {
 //  } 
 //for (const [gmame , value] of myObject) {
   //  console.log(gmame);
-  //console.log(gmame ,':-',value);
-//}
+//   console.log(gmame ,':-',value);
+// }
