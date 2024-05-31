@@ -10,9 +10,43 @@
         <li>Javascript</li>
     </ul>
 </body>
-<script type="module" src="">
-const ullist = document.querySelector('.language');
-console.log(ullist);
+<script>
+// function addLanguage(langname) {
+//    const li = document.createElement('li')
+//  //    li.innerHTML = `${langname}`
+//  li.innerHTML = langname
+//    document.querySelector('.language').append(li)
 
+// }
+// addLanguage("phython")
+// addLanguage("css")
+// **************************************
+function addOptilang(langname) {
+   const li = document.createElement('li')
+//    const addText = document.createTextNode(langname)
+// li.appendChild(addText)
+// or
+   li.appendChild(document.createTextNode(langname))
+   document.querySelector('.language').append(li)
+}
+addOptilang('css')
+addOptilang('javascript')
+addOptilang('golang')
+
+// Edit
+const secondlang = document.querySelector("li:nth-child(2)")
+// secondlang.innerHTML= "mojo"
+//  console.log(secondlang)
+const newLi = document.createElement('li')
+// console.log(newLi);
+newLi.textContent = "mojo"
+secondlang.replaceWith(newLi)
+
+// Edit 
+const firstlang = document.querySelector("li:first-child")
+firstlang.outerHTML = `<li>Type of script</li>`
+//remove
+const lastlang = document.querySelector('li:last-child')
+lastlang.remove()
 </script>
 </html>
